@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+}
+
+.navbar {
+	border: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.navbar .container-fluid {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.main-container {
+	width: 83%;
+	margin: 0 auto;
+}
+
+#home,
+#profile,
+#contact,
+#about{
+	height: 400px;
+	background-color: #48a4b3;
+}
+
+#home h1,
+#profile h1,
+#contact h1,
+#about h1{
+	color: white;
+}
+
+#home .container-fluid,
+#profile .container-fluid,
+#contact .container-fluid,
+#about .container-fluid {
+	width: 85%;
+	margin: 0 auto;
+}
