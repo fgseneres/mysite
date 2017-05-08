@@ -12,7 +12,7 @@ const Navigation = () => (
       <nav className="navbar navbar-default navbar-fixed-top">
         <div className="container-fluid">
           <div className="navbar-header">
-            <Link className="navbar-brand" to="/">MyWebsite</Link>
+            <Link className="navbar-brand" to="/">Hello World</Link>
           </div>
           <ul className="nav navbar-nav navbar-right">
             <li><Link to="/home">Home</Link></li>
@@ -22,7 +22,7 @@ const Navigation = () => (
           </ul>
         </div>
       </nav>
-      
+
       <Route exact path="/" component={Home} />
       <Route path="/Home" component={Home} />
       <Route path="/Profile" component={Profile} />
